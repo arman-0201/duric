@@ -1,0 +1,5072 @@
+body{
+	background-color: rgba(240, 240, 240, 1.0);
+}
+.navBar{
+	border: 1px hidden;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	/*justify-content: center;*/
+	align-items: center;
+}
+	.logoName{
+		border: 1px hidden;
+		width: 10%;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*color: darkgreen;*/
+	}
+	.openbar{
+		border: 1px hidden;
+		width: 89%;
+		height: 50px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		list-style-type: none;
+		/*margin-top: 0;*/
+	}
+			.openbar li:hover {
+				color: blue;
+			}
+			.openbar a {
+				text-decoration: none;
+				color: black;
+			}
+.forResult{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	background: url(forbg.jpeg) fixed;
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+	.forResult h1 {
+		position: absolute;
+		font-size:150px;
+		top: -50px;
+	}
+		.forResult h2:nth-child(2){
+			position: absolute;
+			font-size: 70px;
+			top: 150px;
+		}
+		.forResult h2:nth-child(3){
+			position: absolute;
+			font-size: 60px;
+			top: 240px;
+			color:rgb(63, 97, 119);
+		}
+			.forResult button:nth-child(4){
+				position: absolute;
+				bottom: 50px;
+				width: 170px;
+				height: 35px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+			}
+			.forResult button:nth-child(5){
+				position: absolute;
+				bottom: 50px;
+				width: 150px;
+				height: 35px;
+				border-radius: 30px;
+				border-color:rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+				left: 300px;
+			}
+.forAbout{
+	border: 1px hidden;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 300px;
+	box-sizing: border-box;
+}
+		.forAbout h1:nth-child(1){
+			font-size: 70px;
+			opacity: 0.1;
+		}
+		.forAbout h1:nth-child(2){
+			border-bottom: 2px hidden;
+			position: absolute;
+			font-size: 60px;
+			top:60px;
+			color: rgb(63, 97, 119);
+			z-index: 1;
+		}.forAbout p:nth-child(3){
+			/*font-size: 50px;*/
+			/*top: 100px;*/
+			z-index: 1;
+		}
+.forIcons{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly	;
+}
+	.forIconPixel{
+		border: 1px hidden;
+		width: 300px;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+		.logoMagicSparkles{
+			font-size: 100px;
+			color: rgb(63, 97, 119);
+		}
+.forGoal{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+	.forGoal img {
+		width: 800px;
+		position: absolute;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+	}
+	.forUpWork{
+		border:1px hidden;
+		width: 500px;
+		height: 400px;
+		position: absolute;
+		background-color: rgb(63, 97, 119);
+		left: 605px;
+		top: 100px;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+		.forUpWork h1:nth-child(1){
+			font-size: 80px;
+			color: gray;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+
+
+		}
+		.forUpWork h1:nth-child(2){
+			font-size: 60px;
+			color: white;
+			border-bottom: 2px hidden;
+			width: 100px;
+			z-index: 1;
+			position: absolute;
+			top: 130px;
+			left: 150px;
+		}
+		.forUpWork p{
+			font-size: 20px;
+			position: absolute;
+			top: 230px;
+			color: white;
+		}
+		.forUpWork button{
+			border: hidden;
+			position: absolute;
+			bottom: 30px;
+			width: 140px;
+			height: 30px;
+			border-radius:30px;
+			background-color: rgb(31, 38, 56);
+		}
+
+.forQualityWork{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+	.forQualityWork h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.1;
+	}
+	.forQualityWork h1:nth-child(2){
+		position: absolute;
+		top: 40px;
+		font-size: 50px;
+		border-bottom: 2px hidden;
+		color: rgb(63, 97, 119);
+	}
+.forQualityWorkMenu{
+	border: 1px hidden;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 0 450px;
+	box-sizing: border-box;
+}
+	.all{
+		border: 1px hidden;
+		/*width: 100px;*/
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+		.all:hover{
+			color: blue;
+		}
+.forLogos{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+}
+	.logoRowOne img {
+		width: 20%;
+		height: 195px;
+	}
+	.logoRowOne{
+		border: 1px hidden;
+		width: 100%;
+		/*height: 200px;*/
+		height: 200px;
+		padding: 0 150px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+.forChooseDiv{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+	.forChooseDiv h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.2;
+	}
+	.forChooseDiv h1:nth-child(2){
+		position: absolute;
+		font-size: 40px;
+		top: 50px;		
+	}
+	.forChooseDiv p {
+		position: absolute;
+		top: 120px;
+	}
+.forLogo{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-evenly;
+}
+		.mobileApp{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.webDevelopment{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.graphicDesign{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.marketingServices{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.strategySolutions{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.SEO{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+				.log{
+					font-size: 85px;
+					color: rgb(63, 97, 119);
+				}
+				.forLogo p{
+					color: gray;
+				}
+.grow {
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	background-color:rgb(63, 97, 119);
+	color: white;
+	font-size: 20px;
+}
+		.forButton{
+			border: 1px hidden;
+			width: 30%;
+			height: 150px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			.forButton button{
+				width: 150px;
+				height: 40px;
+				border-radius: 30px;
+				background-color: rgb(31, 38, 56);
+				border: hidden;
+				font-size: 100%;
+				color: white;
+
+			}
+.forOurSkill{
+	border: 1px hidden;
+	background-color: rgb(21, 24, 36);
+	width: 100%;
+	height: 500px;
+	display: flex;
+}	
+		.forSkill{
+			border: 1px hidden;
+			width: 35%;
+			height: 500px;
+			background-color:;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			justify-content:;
+		}
+				.text{
+					position: absolute;
+					top: 20px;
+					font-size: 50px;
+					opacity: 0.2;
+				}
+				.forSkill h1:nth-child(2){
+					position: absolute;
+					top: 45px;
+					font-size: 40px;
+					color: white;
+				}
+				.forSkill p{
+					position: absolute;
+					top: 120px;
+					color: white;
+				}
+
+		.forVideo{
+			border: 1px hidden;
+			width: 65%;
+			height: 500px;
+		}
+		.video{
+			width: 100%;
+			height: 500px;
+		}
+		.zro{
+			border: 1px hidden;
+			width: 300px;
+			height: 100px;
+		}
+.forHTML{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.HTML{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.mek{
+			border: 1px hidden;
+			width: 150px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forCSS{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.CSS{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.erku{
+			border: 1px hidden;
+			width: 120px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+		.forjs{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.js{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.chors{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forPHP{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.PHP{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.ereq{
+			border: 1px hidden;
+			width: 60px;
+			height: 30px;
+			background-color:rgb(49, 72, 89);
+		}
+.forOurTeam{
+	border: 1px hidden;
+	width: 100%;
+	/*height:900px;*/
+}
+		.ourTeam{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+			.ourTeam h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.ourTeam h1:nth-child(2){
+				font-size: 45px;
+				position: absolute;
+				top: 70px;
+			}
+		.bussinesMans{
+			border: 1px hidden;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			justify-content: space-evenly;
+		}
+			.mens{
+				border: 1px hidden;
+				width: 400px;
+				height: 500px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: 0.5;
+			}
+				.mens:hover{
+					opacity: 1;
+				}
+				.bussinesMans img{
+					width: 250px;
+				}
+		.foricon{
+			border: 1px hidden;
+			width: 100%;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+		}
+			.fb{
+				font-size: 40px;
+				color: blue;
+			}
+			.tw{
+				font-size: 40px;
+				color: blue;
+			}
+			.google{
+				font-size: 40px;
+				color: red;
+			}
+			.inst{
+				font-size: 40px;
+				color: rgba(189,3,111,1.0);
+			}
+			.snap{
+				font-size: 40px;
+				color: yellow;
+			}
+.forSubscribe{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	background-color:rgb(66, 93, 120);
+}
+		.vec{
+			border: 1px hidden;
+			width: 40%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+		.yot{
+			border: 1px hidden;
+			width: 60%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			/*background-color:rgb(63, 97, 119);*/
+		}	
+				.yot input{
+					width: 500px;
+					height: 30px;
+					border-radius:30px ;
+					color: black;
+				}
+				.yot button{
+					border: none;
+						width: 150px;
+						height: 40px;
+						border-radius:30px;
+						position: absolute;
+						right: 100px;
+						background-color: rgb(31, 38, 56);
+				}
+.ut{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 800px;*/
+	background-color: rgba(240, 240, 240, 1.0);
+}	
+		.inny{
+			border: 1px hidden;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.inny h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.inny h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 70px;
+
+			}
+	.tas{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+			.plans{
+				border: 1px hidden;
+				border-radius: 20px;
+				width: 300px;
+				height: 500px;
+				background-color: white;
+			}
+				.pric{
+					border: 1px hidden;
+					width: 100%;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					font-size: 40px;
+					align-items: center;
+				}
+				.tasnmek{
+					border: 1px hidden;
+					width: 100%;
+					height: 70px;
+					background-color:rgb(63, 97, 119);
+					display: flex;
+					justify-content: center;
+					color: white;
+				}
+				.tasnerku{
+					border: 1px hidden;
+					width: 100%;
+					height: 323px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
+					align-items: center;
+				}
+				.buynow{
+					border: hidden;
+					width: 150px;
+					height: 30px;
+					border-radius:30px;
+					background-color: rgb(63, 97, 119);
+					font-size: 100%;
+					color: white;
+				}
+					.buynow:hover{
+						background-color: rgb(34, 99, 124);
+					}
+	.tasnereq{
+		border: 1px hidden;
+		width: 100%;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 100px;
+		box-sizing: border-box;
+	}
+		.tasnereq h1:nth-child(1){
+			font-size: 50px;
+			opacity: 0.2;
+		}
+		.tasnereq h1:nth-child(2){
+			position: absolute;
+			top: 70px;
+			font-size: 40px;
+		}
+.tasnchors{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+		.textarea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background-color:rgb(63, 97, 119);
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: 0 30px;
+			box-sizing: border-box;
+		}
+		.picturearea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(womantwo.png);
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+			background-color: rgb(63, 97, 119);
+		}
+.tasnhing{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(64, 69, 134);
+}
+	.icon{
+		border: 1px hidden;
+		width: 200px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+		color: white;
+	}
+		.logoner{
+			font-size: 50px;
+		}
+.fornews{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 1000px;*/
+}
+		.forTextNews{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.forTextNews h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.forTextNews h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 40px;
+			}
+	.forNewPhotos{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		padding: 0 200px;
+		box-sizing: border-box;
+	}
+			.picOneAndTwo{
+				border: 1px hidden;
+				width: 50%;
+				height: 500px;
+			}
+					.picone{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(pictwo.jpeg);
+						/*background-size: 115% ;*/
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictwo{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(picone.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictree{
+						color: white;
+						opacity: 0.6;
+						border:1px hidden;
+						width: 38%;
+						height: 500px;
+						background: url(pictree.jpeg);
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.picone:hover{
+						opacity: 1;
+					}
+					.pictwo:hover{
+						opacity: 1;
+					}
+					.pictree:hover{
+						opacity: 1;
+					}
+			.forSubBtn{
+				border: 1px hidden;
+				width: 100%;
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+				.forSubBtn button {
+					width: 150px;
+					height: 30px;
+					border-radius: 30px;
+					background-color:  rgb(31, 38, 56);
+					border:none;
+				}
+.forEnvanto{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+}	
+	.envanto{
+		border: 1px hidden;
+		width: 200px;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: blue;
+	}
+
+.forLocation{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 0 200px;
+	box-sizing: border-box;
+}		
+		.location{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(erevan.png);
+		}
+		.locateText{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			position: relative;
+			background-color:rgb(21, 24, 36) ;
+			color: white;
+
+		}
+			.locateText h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.locateText h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 50px;
+			}
+				.inputmek{
+					width: 250px;
+					height: 20px;
+					border-radius:30px;
+					background-color: rgb(21, 24, 36);
+				}
+				.inputerku{
+					width: 250px;
+					height: 100px;
+					border-radius: 20px;
+					background-color: rgb(21, 24, 36);
+				}
+				.locateText button{
+					width: 140px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: rgb(21, 24, 66);
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+	.navBar{
+		border: 1px hidden;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		.logoName{
+		 	border: 1px hidden;
+		 	width: 100%;
+		 	height: 50px;
+		}
+		.openbar {
+			border: 1px hidden;
+			width: 100px;
+			height: 500px;
+			background-color: rgba(0, 0, 0, 0.8);
+			position: absolute;
+			top:-9px;
+			display: flex;
+			flex-direction: column;
+			right: -180px;
+			z-index: 1;
+			display: none;
+		}
+			
+.forResult{
+	border: 1px hidden;
+	width: 100%;
+	height: 230px;
+	background: url(forbg.jpeg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+	.forResult h1 {
+		position: absolute;
+		font-size:70px;
+		top: -50px;
+	}
+		.forResult h2:nth-child(2){
+			position: absolute;
+			font-size: 30px;
+			top: 40px;
+		}
+		.forResult h2:nth-child(3){
+			position: absolute;
+			font-size: 40px;
+			top: 70px;
+			color:rgb(63, 97, 119);
+		}
+			.forResult button:nth-child(4){
+				position: absolute;
+				bottom: 20px;
+				width: 100px;
+				height: 45px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+			}
+			.forResult button:nth-child(5){
+				position: absolute;
+				bottom: 20px;
+				width: 100px;
+				height: 45px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+				left: 200px;
+			}
+.forAbout{
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 0;
+	box-sizing: border-box;
+}
+		.forAbout h1:nth-child(1){
+			position: absolute;
+			top: -20px;
+			font-size: 40px;
+			opacity: 0.5;
+		}
+		.forAbout h1:nth-child(2){
+			border-bottom: 2px hidden;
+			position: absolute;
+			font-size: 30px;
+			top:5px;
+			color: rgb(63, 97, 119);
+			z-index: 1;
+		}.forAbout p:nth-child(3){
+			display: none;
+		}
+.forIcons{
+	border: 1px hidden;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+	.forIconPixel{
+		border: 1px hidden;
+		width: 100%;
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+		.forIconPixel p {
+			display: none;
+		}
+		.logoMagicSparkles{
+			font-size: 50px;
+			color: rgb(63, 97, 119);
+			position: absolute;
+			left: 0;
+		}
+.forGoal{
+	border: 1px hidden;
+	width: 100%;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+}
+	.forGoal img {
+		width: 100%;
+		-webkit-border-radius: 0px 0px 0px 0px;
+		-moz-border-radius: 0px 0px 0px 0px;
+		border-radius: 0px 0px 0px 0px;
+	}
+	.forUpWork{
+		border:1px hidden;
+		width: 100%;
+		height: 170px;
+		background-color: rgba(30, 30, 50, 1.0);
+		-webkit-border-radius: 0px 0px 0px 0px;
+		-moz-border-radius: 0px 0px 0px 0px;
+		border-radius: 0px 0px 0px 0px;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+		.forUpWork h1:nth-child(1){
+			font-size: 54px;
+			color: gray;
+			opacity: 0.5;
+			position: absolute;
+			top: -15px;
+
+
+		}
+		.forUpWork h1:nth-child(2){
+			font-size: 50px;
+			color: white;
+			border-bottom: 2px hidden;
+			width: 100px;
+			z-index: 1;
+			position: absolute;
+			top: 30px;
+			left: 150px;
+		}
+		.forUpWork p{
+			font-size: 20px;
+			position: absolute;
+			top: 230px;
+			color: white;
+			display: none;
+		}
+.forQualityWorkMenu{
+	border: 1px hidden;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 0 0;
+	box-sizing: border-box;
+}
+	.all{
+		border: 1px hidden;
+		/*width: 100px;*/
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+		.all:hover{
+			color: blue;
+		}
+.forLogos{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+}
+	.logoRowOne img {
+		width: 150px;
+		height: 175px;
+	}
+	.logoRowOne{
+		border: 1px hidden;
+		width: 100%;
+		/*height: 200px;*/
+		height: 200px;
+		padding: 0 150px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.cut{
+		display: none;
+	}
+.forLogo{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-evenly;
+}
+		.mobileApp{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.webDevelopment{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.graphicDesign{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.marketingServices{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.strategySolutions{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.SEO{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+				.log{
+					font-size: 50px;
+					color: rgb(63, 97, 119);
+				}
+				.forLogo p{
+					color: gray;
+					display: none;
+				}
+				.forLogo h1{
+					font-size: 20px;
+				}
+.grow {
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background-color:rgb(63, 97, 119);
+	color: white;
+	font-size: 20px;
+}
+	.grow p{
+		overflow: hidden;
+		white-space: nowrap;
+	}
+		.forButton{
+			border: 1px hidden;
+			width: 30%;
+			height: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			.forButton button{
+				width: 150px;
+				height: 40px;
+				border-radius: 30px;
+				background-color: rgb(31, 38, 56);
+				border:none;
+				font-size: 100%;
+				color: white;
+
+			}
+.forOurSkill{
+	border: 1px hidden;
+	background-color:  rgb(21, 24, 36);
+	width: 100%;
+	/*height: 200px;*/
+	display: flex;
+	flex-direction: column;
+}	
+		.forSkill{
+			border: 1px hidden;
+			width: 100%;
+			height: 800px;
+			background-color:;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+/*			.hing{
+				border: 1px hidden;
+				width: 100%;
+				height: 250px;
+			}*/
+				.text{
+					position: absolute;
+					top: -30px;
+					font-size: 50px;
+					opacity: 0.2;
+				}
+				.forSkill h1:nth-child(2){
+					position: absolute;
+					top: 10px;
+					font-size: 40px;
+					color: white;
+				}
+				.forSkill p{
+					position: absolute;
+					top: 120px;
+					color: white;
+					display: none;
+				}
+
+		.forVideo{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+		}
+		.video{
+			width: 100%;
+			height: 250px;
+		}
+		.zro{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			position: absolute;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+.forHTML{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.HTML{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:  rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.mek{
+			border: 1px hidden;
+			width: 150px;
+			height: 30px;
+			background-color:  rgb(49, 72, 89);
+		}
+.forCSS{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.CSS{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.erku{
+			border: 1px hidden;
+			width: 120px;
+			height: 30px;
+			background-color:  rgb(49, 72, 89);
+		}
+.forjs{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.js{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.chors{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forPHP{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.PHP{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.ereq{
+			border: 1px hidden;
+			width: 60px;
+			height: 30px;
+			background-color:rgb(49, 72, 89);
+		}
+.forOurTeam{
+	border: 1px hidden;
+	width: 100%;
+	/*height:800px;*/
+}
+		.ourTeam{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+			.ourTeam h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.ourTeam h1:nth-child(2){
+				font-size: 45px;
+				position: absolute;
+				top: 40px;
+			}
+		.bussinesMans{
+			border: 1px hidden;
+			width: 100%;
+			height: 680px;
+			display: flex;
+			flex-direction: column;
+		}
+			.mens{
+				border: 1px hidden;
+				width: 100%;
+				height: 200px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: 0.5;
+			}
+				.mens:hover{
+					opacity: 1;
+				}
+				.bussinesMans img{
+					width: 100px;
+				}
+.forSubscribe{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color:rgb(66, 93, 120);
+}
+		.vec{
+			border: 1px hidden;
+			width: 100%;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+		.yot{
+			border: 1px hidden;
+			width: 100%;
+			height: 150px;
+			display: flex;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+			position: relative;
+			/*background-color:royalblue;*/
+		}	
+				.yot input{
+					width: 97%;
+					height: 30px;
+					border-radius:30px ;
+					color: black;
+					position: absolute;
+					top: 0;
+				}
+				.yot button{
+						width: 150px;
+						height: 40px;
+						border-radius:30px;
+						position: absolute;
+						right: auto;
+						bottom: 0;
+						background-color:rgb(31, 38, 56);
+				}
+.ut{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 800px;*/
+	background-color: rgba(240, 240, 240, 1.0);
+}	
+		.inny{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.inny h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.inny h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 70px;
+			}
+			.inny p{
+				display: none;
+			}
+	.tas{
+		border: 1px hidden;
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+			.plans{
+				border: 2px solid;
+				border-color: rgba(240, 240, 240, 1.0);
+				border-radius: 0;
+				width: 99%;
+				height: 50px;
+				background-color: white;
+				display: flex;
+			}
+				.pric{
+					border: 1px hidden;
+					width: 55px;
+					height: 50px;
+					display: flex;
+					justify-content: center;
+					font-size: 10px;
+					align-items: center;
+				}
+				.tasnmek{
+					border: 1px hidden;
+					width: 100%;
+					height: 70px;
+					background-color: royalblue;
+					display: flex;
+					justify-content: center;
+					color: white;
+					display: none;
+				}
+				.tasnerku{
+					border: 1px hidden;
+					width: 100%;
+					height: 50px;
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+				}
+				.buynow{
+					border: hidden;
+					width: 70px;
+					height: 20px;
+					border-radius:30px;
+					background-color: royalblue;
+					font-size: 100%;
+					color: white;
+				}
+					.buynow:hover{
+						background-color: rgb(34, 99, 124);
+					}
+	.tasnereq{
+		border: 1px hidden;
+		width: 100%;
+		height: 190px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 100px;
+		box-sizing: border-box;
+	}
+		.tasnereq h1:nth-child(1){
+			font-size: 40px;
+			opacity: 0.2;
+		}
+		.tasnereq h1:nth-child(2){
+			position: absolute;
+			top: 70px;
+			font-size: 40px;
+		}
+		.tasnereq p{
+			display: none;
+
+		}
+.tasnchors{
+	border: 1px hidden;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+}
+		/*.textarea{
+			border: 1px hidden;
+			width: 100%;
+			height: 400px;
+			background-color:royalblue;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+
+		}*/
+			.textarea {
+				border: 1px hidden;
+				  width: 100%;
+				  height: 400px;
+				  overflow-x: hidden;
+				  overflow-y: auto;
+				  text-align: center;
+				  padding: 20px;
+				  box-sizing: border-box;
+				}
+			.tox{
+				overflow: hidden;
+				white-space:inherit;
+				text-overflow: ellipsis;
+			}
+			
+		.picturearea{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			background: url(womantwo.png);
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+			background-color: rgb(63, 97, 119);
+		}
+.tasnhing{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(64, 69, 134);
+}
+	.icon{
+		border: 1px hidden;
+		width: 80px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+		color: white;
+	}
+		.logoner{
+			font-size: 50px;
+		}
+.fornews{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 1000px;*/
+}
+		.forTextNews{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.forTextNews h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.forTextNews h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 40px;
+			}
+			.forTextNews p{
+				display: none;
+			}
+	.forNewPhotos{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		padding: 0 0;
+		box-sizing: border-box;
+	}
+			.picOneAndTwo{
+				border: 1px hidden;
+				width: 50%;
+				height: 500px;
+			}
+					.picone{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(pictwo.jpeg);
+						/*background-size: 115% ;*/
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictwo{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(picone.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictree{
+						color: white;
+						opacity: 0.6;
+						border:1px hidden;
+						width: 50%;
+						height: 500px;
+						background: url(pictree.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.picone:hover{
+						opacity: 1;
+					}
+					.pictwo:hover{
+						opacity: 1;
+					}
+					.pictree:hover{
+						opacity: 1;
+					}
+.forEnvanto{
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+}		
+	.forEnvanto .envanto:nth-child(4){
+		display: none;
+	}
+	.envanto{
+		border: 1px hidden;
+		width: 100px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: blue;
+		font-size: 10px;
+	}
+.forLocation{
+	border: 1px hidden;
+	width: 100%;
+	height: 750px;
+	display: flex;
+	padding: 0 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column-reverse;
+}		
+		.location{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			background: url(erevan.png);
+		}
+		.locateText{
+			border: 1px hidden;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			position: relative;
+			background-color:rgb(21, 24, 36) ;
+			color: white;
+
+		}
+			.locateText h1:nth-child(1){
+				font-size: 30px;
+				opacity: 0.2;
+				position: absolute;
+				top: -20px;
+			}
+			.locateText h1:nth-child(2){
+				font-size: 20px;
+				position: absolute;
+				top: 14px;
+			}
+				.locateText p{
+					overflow: hidden;
+					white-space: initial;
+				}
+				.inputmek{
+					width: 250px;
+					height: 20px;
+					border-radius:30px;
+					background-color: rgb(21, 24, 36);
+				}
+				.inputerku{
+					width: 250px;
+					height: 50px;
+					border-radius: 20px;
+					background-color: rgb(21, 24, 36);
+				}
+				.locateText button{
+					width: 140px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: rgb(21, 24, 66);
+				}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+
+	.navBar{
+		border: 1px hidden;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		.logoName{
+		 	border: 1px hidden;
+		 	width: 100%;
+		 	height: 50px;
+		}
+		.openbar {
+			border: 1px hidden;
+			width: 100px;
+			height: 500px;
+			background-color: rgba(0, 0, 0, 0.8);
+			position: absolute;
+			top:-9px;
+			display: flex;
+			flex-direction: column;
+			right: -180px;
+			z-index: 1;
+			display: none;
+		}
+			
+.forResult{
+	border: 1px hidden;
+	width: 100%;
+	height: 230px;
+	background: url(forbg.jpeg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+	.forResult h1 {
+		position: absolute;
+		font-size:70px;
+		top: -50px;
+	}
+		.forResult h2:nth-child(2){
+			position: absolute;
+			font-size: 30px;
+			top: 40px;
+		}
+		.forResult h2:nth-child(3){
+			position: absolute;
+			font-size: 40px;
+			top: 70px;
+			color:rgb(63, 97, 119);
+		}
+			.forResult button:nth-child(4){
+				position: absolute;
+				bottom: 20px;
+				width: 100px;
+				height: 45px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+			}
+			.forResult button:nth-child(5){
+				position: absolute;
+				bottom: 20px;
+				width: 100px;
+				height: 45px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+				left: 200px;
+			}
+.forAbout{
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 0;
+	box-sizing: border-box;
+}
+		.forAbout h1:nth-child(1){
+			position: absolute;
+			top: -20px;
+			font-size: 40px;
+			opacity: 0.5;
+		}
+		.forAbout h1:nth-child(2){
+			border-bottom: 2px hidden;
+			position: absolute;
+			font-size: 30px;
+			top:5px;
+			color: rgb(63, 97, 119);
+			z-index: 1;
+		}.forAbout p:nth-child(3){
+			display: none;
+		}
+.forIcons{
+	border: 1px hidden;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+	.forIconPixel{
+		border: 1px hidden;
+		width: 100%;
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+		.forIconPixel p {
+			display: none;
+		}
+		.logoMagicSparkles{
+			font-size: 50px;
+			color: rgb(63, 97, 119);
+			position: absolute;
+			left: 0;
+		}
+.forGoal{
+	border: 1px hidden;
+	width: 100%;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+}
+	.forGoal img {
+		width: 100%;
+		-webkit-border-radius: 0px 0px 0px 0px;
+		-moz-border-radius: 0px 0px 0px 0px;
+		border-radius: 0px 0px 0px 0px;
+	}
+	.forUpWork{
+		border:1px hidden;
+		width: 100%;
+		height: 170px;
+		background-color: rgba(30, 30, 50, 1.0);
+		-webkit-border-radius: 0px 0px 0px 0px;
+		-moz-border-radius: 0px 0px 0px 0px;
+		border-radius: 0px 0px 0px 0px;
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+		.forUpWork h1:nth-child(1){
+			font-size: 54px;
+			color: gray;
+			opacity: 0.5;
+			position: absolute;
+			top: -15px;
+
+
+		}
+		.forUpWork h1:nth-child(2){
+			font-size: 50px;
+			color: white;
+			border-bottom: 2px hidden;
+			width: 100px;
+			z-index: 1;
+			position: absolute;
+			top: 30px;
+			left: 150px;
+		}
+		.forUpWork p{
+			font-size: 20px;
+			position: absolute;
+			top: 230px;
+			color: white;
+			display: none;
+		}
+.forQualityWorkMenu{
+	border: 1px hidden;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 0 0;
+	box-sizing: border-box;
+}
+	.all{
+		border: 1px hidden;
+		/*width: 100px;*/
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+		.all:hover{
+			color: blue;
+		}
+.forLogos{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+}
+	.logoRowOne img {
+		width: 150px;
+		height: 175px;
+	}
+	.logoRowOne{
+		border: 1px hidden;
+		width: 100%;
+		/*height: 200px;*/
+		height: 200px;
+		padding: 0 150px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.cut:nth-child(3){
+		display: none;
+	}
+.forLogo{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-evenly;
+}
+		.mobileApp{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.webDevelopment{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.graphicDesign{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.marketingServices{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.strategySolutions{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.SEO{
+			border: 1px hidden;
+			width: 40%;
+			height: 120px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+				.log{
+					font-size: 50px;
+					color: rgb(63, 97, 119);
+				}
+				.forLogo p{
+					color: gray;
+					display: none;
+				}
+				.forLogo h1{
+					font-size: 20px;
+				}
+.grow {
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background-color:rgb(63, 97, 119);
+	color: white;
+	font-size: 20px;
+}
+	.grow p{
+		overflow: hidden;
+		white-space: nowrap;
+	}
+		.forButton{
+			border: 1px hidden;
+			width: 30%;
+			height: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			.forButton button{
+				width: 150px;
+				height: 40px;
+				border-radius: 30px;
+				background-color: rgb(31, 38, 56);
+				border:none;
+				font-size: 100%;
+				color: white;
+
+			}
+.forOurSkill{
+	border: 1px hidden;
+	background-color:  rgb(21, 24, 36);
+	width: 100%;
+	/*height: 200px;*/
+	display: flex;
+	flex-direction: column;
+}	
+		.forSkill{
+			border: 1px hidden;
+			width: 100%;
+			height: 800px;
+			background-color:;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+/*			.hing{
+				border: 1px hidden;
+				width: 100%;
+				height: 250px;
+			}*/
+				.text{
+					position: absolute;
+					top: -30px;
+					font-size: 50px;
+					opacity: 0.2;
+				}
+				.forSkill h1:nth-child(2){
+					position: absolute;
+					top: 10px;
+					font-size: 40px;
+					color: white;
+				}
+				.forSkill p{
+					position: absolute;
+					top: 120px;
+					color: white;
+					display: none;
+				}
+
+		.forVideo{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+		}
+		.video{
+			width: 100%;
+			height: 250px;
+		}
+		.zro{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			position: absolute;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+.forHTML{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.HTML{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:  rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.mek{
+			border: 1px hidden;
+			width: 150px;
+			height: 30px;
+			background-color:  rgb(49, 72, 89);
+		}
+.forCSS{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.CSS{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.erku{
+			border: 1px hidden;
+			width: 120px;
+			height: 30px;
+			background-color:  rgb(49, 72, 89);
+		}
+.forjs{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.js{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.chors{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forPHP{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.PHP{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.ereq{
+			border: 1px hidden;
+			width: 60px;
+			height: 30px;
+			background-color:rgb(49, 72, 89);
+		}
+.forOurTeam{
+	border: 1px hidden;
+	width: 100%;
+	/*height:800px;*/
+}
+		.ourTeam{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+			.ourTeam h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.ourTeam h1:nth-child(2){
+				font-size: 45px;
+				position: absolute;
+				top: 40px;
+			}
+		.bussinesMans{
+			border: 1px hidden;
+			width: 100%;
+			height: 680px;
+			display: flex;
+			flex-direction: column;
+		}
+			.mens{
+				border: 1px hidden;
+				width: 100%;
+				height: 200px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: 0.5;
+			}
+				.mens:hover{
+					opacity: 1;
+				}
+				.bussinesMans img{
+					width: 100px;
+				}
+.forSubscribe{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color:rgb(66, 93, 120);
+}
+		.vec{
+			border: 1px hidden;
+			width: 100%;
+			height: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+		.yot{
+			border: 1px hidden;
+			width: 100%;
+			height: 150px;
+			display: flex;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+			position: relative;
+			/*background-color:royalblue;*/
+		}	
+				.yot input{
+					width: 97%;
+					height: 30px;
+					border-radius:30px ;
+					color: black;
+					position: absolute;
+					top: 0;
+				}
+				.yot button{
+						width: 150px;
+						height: 40px;
+						border-radius:30px;
+						position: absolute;
+						right: auto;
+						bottom: 0;
+						background-color:rgb(31, 38, 56);
+				}
+.ut{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 800px;*/
+	background-color: rgba(240, 240, 240, 1.0);
+}	
+		.inny{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.inny h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.inny h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 70px;
+			}
+			.inny p{
+				display: none;
+			}
+	.tas{
+		border: 1px hidden;
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+			.plans{
+				border: 2px solid;
+				border-color: rgba(240, 240, 240, 1.0);
+				border-radius: 0;
+				width: 99%;
+				height: 50px;
+				background-color: white;
+				display: flex;
+			}
+				.pric{
+					border: 1px hidden;
+					width: 55px;
+					height: 50px;
+					display: flex;
+					justify-content: center;
+					font-size: 10px;
+					align-items: center;
+				}
+				.tasnmek{
+					border: 1px hidden;
+					width: 100%;
+					height: 70px;
+					background-color: royalblue;
+					display: flex;
+					justify-content: center;
+					color: white;
+					display: none;
+				}
+				.tasnerku{
+					border: 1px hidden;
+					width: 100%;
+					height: 50px;
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+				}
+				.buynow{
+					border: hidden;
+					width: 70px;
+					height: 20px;
+					border-radius:30px;
+					background-color: royalblue;
+					font-size: 100%;
+					color: white;
+				}
+					.buynow:hover{
+						background-color: rgb(34, 99, 124);
+					}
+	.tasnereq{
+		border: 1px hidden;
+		width: 100%;
+		height: 190px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 100px;
+		box-sizing: border-box;
+	}
+		.tasnereq h1:nth-child(1){
+			font-size: 40px;
+			opacity: 0.2;
+		}
+		.tasnereq h1:nth-child(2){
+			position: absolute;
+			top: 70px;
+			font-size: 40px;
+		}
+		.tasnereq p{
+			display: none;
+
+		}
+.tasnchors{
+	border: 1px hidden;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+}
+		/*.textarea{
+			border: 1px hidden;
+			width: 100%;
+			height: 400px;
+			background-color:royalblue;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+
+		}*/
+			.textarea {
+				border: 1px hidden;
+				  width: 100%;
+				  height: 400px;
+				  overflow-x: hidden;
+				  overflow-y: auto;
+				  text-align: center;
+				  padding: 20px;
+				  box-sizing: border-box;
+				}
+			.tox{
+				overflow: hidden;
+				white-space:inherit;
+				text-overflow: ellipsis;
+			}
+			
+		.picturearea{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			background: url(womantwo.png);
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+			background-color: rgb(63, 97, 119);
+		}
+.tasnhing{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(64, 69, 134);
+}
+	.icon{
+		border: 1px hidden;
+		width: 80px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+		color: white;
+	}
+		.logoner{
+			font-size: 50px;
+		}
+.fornews{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 1000px;*/
+}
+		.forTextNews{
+			border: 1px hidden;
+			width: 100%;
+			height: 200px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.forTextNews h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.forTextNews h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 40px;
+			}
+			.forTextNews p{
+				display: none;
+			}
+	.forNewPhotos{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		padding: 0 0;
+		box-sizing: border-box;
+	}
+			.picOneAndTwo{
+				border: 1px hidden;
+				width: 50%;
+				height: 500px;
+			}
+					.picone{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(pictwo.jpeg);
+						/*background-size: 115% ;*/
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictwo{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(picone.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictree{
+						color: white;
+						opacity: 0.6;
+						border:1px hidden;
+						width: 50%;
+						height: 500px;
+						background: url(pictree.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.picone:hover{
+						opacity: 1;
+					}
+					.pictwo:hover{
+						opacity: 1;
+					}
+					.pictree:hover{
+						opacity: 1;
+					}
+.forEnvanto{
+	border: 1px hidden;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+}		
+	.forEnvanto .envanto:nth-child(4){
+		display: none;
+	}
+	.envanto{
+		border: 1px hidden;
+		width: 100px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: blue;
+		font-size: 10px;
+	}
+.forLocation{
+	border: 1px hidden;
+	width: 100%;
+	height: 750px;
+	display: flex;
+	padding: 0 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column-reverse;
+}		
+		.location{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			background: url(erevan.png);
+		}
+		.locateText{
+			border: 1px hidden;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			position: relative;
+			background-color:rgb(21, 24, 36) ;
+			color: white;
+
+		}
+			.locateText h1:nth-child(1){
+				font-size: 30px;
+				opacity: 0.2;
+				position: absolute;
+				top: -20px;
+			}
+			.locateText h1:nth-child(2){
+				font-size: 20px;
+				position: absolute;
+				top: 14px;
+			}
+				.locateText p{
+					overflow: hidden;
+					white-space: initial;
+				}
+				.inputmek{
+					width: 250px;
+					height: 20px;
+					border-radius:30px;
+					background-color: rgb(21, 24, 36);
+				}
+				.inputerku{
+					width: 250px;
+					height: 50px;
+					border-radius: 20px;
+					background-color: rgb(21, 24, 36);
+				}
+				.locateText button{
+					width: 140px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: rgb(21, 24, 66);
+				}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+	.navBar{
+	border: 1px hidden;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	/*justify-content: center;*/
+	align-items: center;
+}
+	.logoName{
+		border: 1px hidden;
+		width: 10%;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*color: darkgreen;*/
+	}
+	.openbar{
+		border: 1px hidden;
+		width: 89%;
+		height: 50px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		list-style-type: none;
+		/*margin-top: 0;*/
+	}
+			.openbar li:hover {
+				color: blue;
+			}
+			.openbar a {
+				text-decoration: none;
+				color: black;
+			}
+.forResult{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	background: url(forbg.jpeg) fixed;
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+	.forResult h1 {
+		position: absolute;
+		font-size:150px;
+		top: -50px;
+	}
+		.forResult h2:nth-child(2){
+			position: absolute;
+			font-size: 70px;
+			top: 150px;
+		}
+		.forResult h2:nth-child(3){
+			position: absolute;
+			font-size: 60px;
+			top: 240px;
+			color:rgb(63, 97, 119);
+		}
+			.forResult button:nth-child(4){
+				position: absolute;
+				bottom: 50px;
+				width: 170px;
+				height: 35px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+			}
+			.forResult button:nth-child(5){
+				position: absolute;
+				bottom: 50px;
+				width: 150px;
+				height: 35px;
+				border-radius: 30px;
+				border-color:rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+				left: 300px;
+			}
+.forAbout{
+	border: 1px hidden;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 300px;
+	box-sizing: border-box;
+}
+		.forAbout h1:nth-child(1){
+			font-size: 70px;
+			opacity: 0.1;
+		}
+		.forAbout h1:nth-child(2){
+			border-bottom: 2px hidden;
+			position: absolute;
+			font-size: 60px;
+			top:60px;
+			color: rgb(63, 97, 119);
+			z-index: 1;
+		}.forAbout p:nth-child(3){
+			/*font-size: 50px;*/
+			/*top: 100px;*/
+			z-index: 1;
+		}
+.forIcons{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly	;
+}
+	.forIconPixel{
+		border: 1px hidden;
+		width: 300px;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+		.logoMagicSparkles{
+			font-size: 100px;
+			color: rgb(63, 97, 119);
+		}
+.forGoal{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+	.forGoal img {
+		width: 780px;
+		position: absolute;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+	}
+	.forUpWork{
+		border:1px hidden;
+		width: 500px;
+		height: 400px;
+		position: absolute;
+		background-color: rgb(63, 97, 119);
+		left: 280px;
+		top: 100px;
+		opacity: 0.5;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+		.forUpWork h1:nth-child(1){
+			font-size: 80px;
+			color: gray;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+
+
+		}
+		.forUpWork h1:nth-child(2){
+			font-size: 60px;
+			color: white;
+			border-bottom: 2px hidden;
+			width: 100px;
+			z-index: 1;
+			position: absolute;
+			top: 130px;
+			left: 150px;
+		}
+		.forUpWork p{
+			font-size: 20px;
+			position: absolute;
+			top: 230px;
+			color: white;
+		}
+		.forUpWork button{
+			border: hidden;
+			position: absolute;
+			bottom: 30px;
+			width: 140px;
+			height: 30px;
+			border-radius:30px;
+			background-color: rgb(31, 38, 56);
+		}
+
+.forQualityWork{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+	.forQualityWork h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.1;
+	}
+	.forQualityWork h1:nth-child(2){
+		position: absolute;
+		top: 40px;
+		font-size: 50px;
+		border-bottom: 2px hidden;
+		color: rgb(63, 97, 119);
+	}
+.forQualityWorkMenu{
+	border: 1px hidden;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 0 450px;
+	box-sizing: border-box;
+}
+	.all{
+		border: 1px hidden;
+		/*width: 100px;*/
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+		.all:hover{
+			color: blue;
+		}
+.forLogos{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+}
+	.logoRowOne img {
+		width: 20%;
+		height: 195px;
+	}
+	.logoRowOne{
+		border: 1px hidden;
+		width: 100%;
+		/*height: 200px;*/
+		height: 200px;
+		padding: 0 150px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+.forChooseDiv{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+	.forChooseDiv h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.2;
+	}
+	.forChooseDiv h1:nth-child(2){
+		position: absolute;
+		font-size: 40px;
+		top: 50px;		
+	}
+	.forChooseDiv p {
+		position: absolute;
+		top: 120px;
+	}
+.forLogo{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-evenly;
+}
+		.mobileApp{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.webDevelopment{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.graphicDesign{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.marketingServices{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.strategySolutions{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.SEO{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+				.log{
+					font-size: 85px;
+					color: rgb(63, 97, 119);
+				}
+				.forLogo p{
+					color: gray;
+				}
+.grow {
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	background-color:rgb(63, 97, 119);
+	color: white;
+	font-size: 20px;
+}
+		.forButton{
+			border: 1px hidden;
+			width: 30%;
+			height: 150px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			.forButton button{
+				width: 150px;
+				height: 40px;
+				border-radius: 30px;
+				background-color: rgb(31, 38, 56);
+				border: hidden;
+				font-size: 100%;
+				color: white;
+
+			}
+.forOurSkill{
+	border: 1px hidden;
+	background-color: rgb(21, 24, 36);
+	width: 100%;
+	height: 500px;
+	display: flex;
+}	
+		.forSkill{
+			border: 1px hidden;
+			width: 35%;
+			height: 500px;
+			background-color:;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			justify-content:;
+		}
+				.text{
+					position: absolute;
+					top: 20px;
+					font-size: 50px;
+					opacity: 0.2;
+				}
+				.forSkill h1:nth-child(2){
+					position: absolute;
+					top: 45px;
+					font-size: 40px;
+					color: white;
+				}
+				.forSkill p{
+					position: absolute;
+					top: 120px;
+					color: white;
+				}
+
+		.forVideo{
+			border: 1px hidden;
+			width: 65%;
+			height: 500px;
+		}
+		.video{
+			width: 100%;
+			height: 500px;
+		}
+		.zro{
+			border: 1px hidden;
+			width: 300px;
+			height: 100px;
+		}
+.forHTML{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.HTML{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.mek{
+			border: 1px hidden;
+			width: 150px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forCSS{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.CSS{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.erku{
+			border: 1px hidden;
+			width: 120px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+		.forjs{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.js{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.chors{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forPHP{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.PHP{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.ereq{
+			border: 1px hidden;
+			width: 60px;
+			height: 30px;
+			background-color:rgb(49, 72, 89);
+		}
+.forOurTeam{
+	border: 1px hidden;
+	width: 100%;
+	/*height:900px;*/
+}
+		.ourTeam{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+			.ourTeam h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.ourTeam h1:nth-child(2){
+				font-size: 45px;
+				position: absolute;
+				top: 70px;
+			}
+		.bussinesMans{
+			border: 1px hidden;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			justify-content: space-evenly;
+		}
+			.mens{
+				border: 1px hidden;
+				width: 400px;
+				height: 500px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: 0.5;
+			}
+				.mens:hover{
+					opacity: 1;
+				}
+				.bussinesMans img{
+					width: 250px;
+				}
+		.foricon{
+			border: 1px hidden;
+			width: 100%;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+		}
+			.fb{
+				font-size: 40px;
+				color: blue;
+			}
+			.tw{
+				font-size: 40px;
+				color: blue;
+			}
+			.google{
+				font-size: 40px;
+				color: red;
+			}
+			.inst{
+				font-size: 40px;
+				color: rgba(189,3,111,1.0);
+			}
+			.snap{
+				font-size: 40px;
+				color: yellow;
+			}
+.forSubscribe{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	background-color:rgb(66, 93, 120);
+}
+		.vec{
+			border: 1px hidden;
+			width: 40%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+		.yot{
+			border: 1px hidden;
+			width: 60%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			/*background-color:rgb(63, 97, 119);*/
+		}	
+				.yot input{
+					width: 500px;
+					height: 30px;
+					border-radius:30px ;
+					color: black;
+				}
+				.yot button{
+					border: none;
+						width: 150px;
+						height: 40px;
+						border-radius:30px;
+						position: absolute;
+						right: 0;
+						background-color: rgb(31, 38, 56);
+				}
+.ut{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 800px;*/
+	background-color: rgba(240, 240, 240, 1.0);
+}	
+		.inny{
+			border: 1px hidden;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.inny h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.inny h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 70px;
+
+			}
+	.tas{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+			.plans{
+				border: 1px hidden;
+				border-radius: 20px;
+				width: 300px;
+				height: 500px;
+				background-color: white;
+			}
+				.pric{
+					border: 1px hidden;
+					width: 100%;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					font-size: 40px;
+					align-items: center;
+				}
+				.tasnmek{
+					border: 1px hidden;
+					width: 100%;
+					height: 70px;
+					background-color:rgb(63, 97, 119);
+					display: flex;
+					justify-content: center;
+					color: white;
+				}
+				.tasnerku{
+					border: 1px hidden;
+					width: 100%;
+					height: 323px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
+					align-items: center;
+				}
+				.buynow{
+					border: hidden;
+					width: 150px;
+					height: 30px;
+					border-radius:30px;
+					background-color: rgb(63, 97, 119);
+					font-size: 100%;
+					color: white;
+				}
+					.buynow:hover{
+						background-color: rgb(34, 99, 124);
+					}
+	.tasnereq{
+		border: 1px hidden;
+		width: 100%;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 100px;
+		box-sizing: border-box;
+	}
+		.tasnereq h1:nth-child(1){
+			font-size: 50px;
+			opacity: 0.2;
+		}
+		.tasnereq h1:nth-child(2){
+			position: absolute;
+			top: 70px;
+			font-size: 40px;
+		}
+.tasnchors{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+		.textarea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background-color:rgb(63, 97, 119);
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: 0 30px;
+			box-sizing: border-box;
+		}
+		.picturearea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(womantwo.png);
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+			background-color: rgb(63, 97, 119);
+		}
+.tasnhing{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(64, 69, 134);
+}
+	.icon{
+		border: 1px hidden;
+		width: 200px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+		color: white;
+	}
+		.logoner{
+			font-size: 50px;
+		}
+.fornews{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 1000px;*/
+}
+		.forTextNews{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.forTextNews h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.forTextNews h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 40px;
+			}
+	.forNewPhotos{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		padding: 0 200px;
+		box-sizing: border-box;
+	}
+			.picOneAndTwo{
+				border: 1px hidden;
+				width: 50%;
+				height: 500px;
+			}
+					.picone{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(pictwo.jpeg);
+						/*background-size: 115% ;*/
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictwo{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(picone.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictree{
+						color: white;
+						opacity: 0.6;
+						border:1px hidden;
+						width: 38%;
+						height: 500px;
+						background: url(pictree.jpeg);
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.picone:hover{
+						opacity: 1;
+					}
+					.pictwo:hover{
+						opacity: 1;
+					}
+					.pictree:hover{
+						opacity: 1;
+					}
+			.forSubBtn{
+				border: 1px hidden;
+				width: 100%;
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+				.forSubBtn button {
+					width: 150px;
+					height: 30px;
+					border-radius: 30px;
+					background-color:  rgb(31, 38, 56);
+					border:none;
+				}
+.forEnvanto{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+}	
+	.envanto{
+		border: 1px hidden;
+		width: 200px;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: blue;
+	}
+
+.forLocation{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 0 100px;
+	box-sizing: border-box;
+}		
+		.location{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(erevan.png);
+		}
+		.locateText{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			position: relative;
+			background-color:rgb(21, 24, 36) ;
+			color: white;
+
+		}
+			.locateText h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.locateText h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 50px;
+			}
+				.inputmek{
+					width: 250px;
+					height: 20px;
+					border-radius:30px;
+					background-color: rgb(21, 24, 36);
+				}
+				.inputerku{
+					width: 250px;
+					height: 100px;
+					border-radius: 20px;
+					background-color: rgb(21, 24, 36);
+				}
+				.locateText button{
+					width: 140px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: rgb(21, 24, 66);
+				}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+.navBar{
+	border: 1px hidden;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	/*justify-content: center;*/
+	align-items: center;
+}
+	.logoName{
+		border: 1px hidden;
+		width: 10%;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*color: darkgreen;*/
+	}
+	.openbar{
+		border: 1px hidden;
+		width: 89%;
+		height: 50px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		list-style-type: none;
+		/*margin-top: 0;*/
+	}
+			.openbar li:hover {
+				color: blue;
+			}
+			.openbar a {
+				text-decoration: none;
+				color: black;
+			}
+.forResult{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	background: url(forbg.jpeg) fixed;
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+	padding:0 100px;
+	box-sizing: border-box;
+}
+	.forResult h1 {
+		position: absolute;
+		font-size:150px;
+		top: -50px;
+	}
+		.forResult h2:nth-child(2){
+			position: absolute;
+			font-size: 70px;
+			top: 150px;
+		}
+		.forResult h2:nth-child(3){
+			position: absolute;
+			font-size: 60px;
+			top: 240px;
+			color:rgb(63, 97, 119);
+		}
+			.forResult button:nth-child(4){
+				position: absolute;
+				bottom: 50px;
+				width: 170px;
+				height: 35px;
+				border-radius: 30px;
+				border-color: rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+			}
+			.forResult button:nth-child(5){
+				position: absolute;
+				bottom: 50px;
+				width: 150px;
+				height: 35px;
+				border-radius: 30px;
+				border-color:rgb(63, 97, 119);
+				background: rgb(63, 97, 119);
+				font-size: 100%;
+				color: white;
+				left: 300px;
+			}
+.forAbout{
+	border: 1px hidden;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0 300px;
+	box-sizing: border-box;
+}
+		.forAbout h1:nth-child(1){
+			font-size: 70px;
+			opacity: 0.1;
+		}
+		.forAbout h1:nth-child(2){
+			border-bottom: 2px hidden;
+			position: absolute;
+			font-size: 60px;
+			top:60px;
+			color: rgb(63, 97, 119);
+			z-index: 1;
+		}.forAbout p:nth-child(3){
+			/*font-size: 50px;*/
+			/*top: 100px;*/
+			z-index: 1;
+		}
+.forIcons{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly	;
+}
+	.forIconPixel{
+		border: 1px hidden;
+		width: 300px;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+		.logoMagicSparkles{
+			font-size: 100px;
+			color: rgb(63, 97, 119);
+		}
+.forGoal{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+	.forGoal img {
+		width: 800px;
+		position: absolute;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+	}
+	.forUpWork{
+		border:1px hidden;
+		width: 500px;
+		height: 400px;
+		position: absolute;
+		background-color: rgb(63, 97, 119);
+		left: 605px;
+		top: 100px;
+		-webkit-border-radius: 0px 40px 40px 0px;
+		-moz-border-radius: 0px 40px 40px 0px;
+		border-radius: 0px 40px 40px 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+		.forUpWork h1:nth-child(1){
+			font-size: 80px;
+			color: gray;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+
+
+		}
+		.forUpWork h1:nth-child(2){
+			font-size: 60px;
+			color: white;
+			border-bottom: 2px hidden;
+			width: 100px;
+			z-index: 1;
+			position: absolute;
+			top: 130px;
+			left: 150px;
+		}
+		.forUpWork p{
+			font-size: 20px;
+			position: absolute;
+			top: 230px;
+			color: white;
+		}
+		.forUpWork button{
+			border: hidden;
+			position: absolute;
+			bottom: 30px;
+			width: 140px;
+			height: 30px;
+			border-radius:30px;
+			background-color: rgb(31, 38, 56);
+		}
+
+.forQualityWork{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+	.forQualityWork h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.1;
+	}
+	.forQualityWork h1:nth-child(2){
+		position: absolute;
+		top: 40px;
+		font-size: 50px;
+		border-bottom: 2px hidden;
+		color: rgb(63, 97, 119);
+	}
+.forQualityWorkMenu{
+	border: 1px hidden;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 0 450px;
+	box-sizing: border-box;
+}
+	.all{
+		border: 1px hidden;
+		/*width: 100px;*/
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+		.all:hover{
+			color: blue;
+		}
+.forLogos{
+	border: 1px hidden;
+	width: 100%;
+	height: 400px;
+}
+	.logoRowOne img {
+		width: 20%;
+		height: 195px;
+	}
+	.logoRowOne{
+		border: 1px hidden;
+		width: 100%;
+		/*height: 200px;*/
+		height: 200px;
+		padding: 0 150px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+.forChooseDiv{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+	.forChooseDiv h1:nth-child(1){
+		font-size: 60px;
+		opacity: 0.2;
+	}
+	.forChooseDiv h1:nth-child(2){
+		position: absolute;
+		font-size: 40px;
+		top: 50px;		
+	}
+	.forChooseDiv p {
+		position: absolute;
+		top: 120px;
+	}
+.forLogo{
+	border: 1px hidden;
+	background-color: rgba(240, 240, 240, 1.0);
+	width: 100%;
+	height: 650px;
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content: space-evenly;
+}
+		.mobileApp{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.webDevelopment{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.graphicDesign{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.marketingServices{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.strategySolutions{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.SEO{
+			border: 1px hidden;
+			width: 30%;
+			height: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+				.log{
+					font-size: 85px;
+					color: rgb(63, 97, 119);
+				}
+				.forLogo p{
+					color: gray;
+				}
+.grow {
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	background-color:rgb(63, 97, 119);
+	color: white;
+	font-size: 20px;
+}
+		.forButton{
+			border: 1px hidden;
+			width: 30%;
+			height: 150px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+			.forButton button{
+				width: 150px;
+				height: 40px;
+				border-radius: 30px;
+				background-color: rgb(31, 38, 56);
+				border: hidden;
+				font-size: 100%;
+				color: white;
+
+			}
+.forOurSkill{
+	border: 1px hidden;
+	background-color: rgb(21, 24, 36);
+	width: 100%;
+	height: 500px;
+	display: flex;
+}	
+		.forSkill{
+			border: 1px hidden;
+			width: 35%;
+			height: 500px;
+			background-color:;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			justify-content:;
+		}
+				.text{
+					position: absolute;
+					top: 20px;
+					font-size: 50px;
+					opacity: 0.2;
+				}
+				.forSkill h1:nth-child(2){
+					position: absolute;
+					top: 45px;
+					font-size: 40px;
+					color: white;
+				}
+				.forSkill p{
+					position: absolute;
+					top: 120px;
+					color: white;
+				}
+
+		.forVideo{
+			border: 1px hidden;
+			width: 65%;
+			height: 500px;
+		}
+		.video{
+			width: 100%;
+			height: 500px;
+		}
+		.zro{
+			border: 1px hidden;
+			width: 300px;
+			height: 100px;
+		}
+.forHTML{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.HTML{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.mek{
+			border: 1px hidden;
+			width: 150px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forCSS{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.CSS{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color:rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.erku{
+			border: 1px hidden;
+			width: 120px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+		.forjs{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.js{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.chors{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(49, 72, 89);
+		}
+.forPHP{
+	border: 1px hidden;
+	width: 300px;
+	height: 30px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+		.PHP{
+			border: 1px hidden;
+			width: 90px;
+			height: 30px;
+			background-color: rgb(43, 58, 70);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.text1{
+			font-size: 20px;
+			color: white;
+		}
+		.ereq{
+			border: 1px hidden;
+			width: 60px;
+			height: 30px;
+			background-color:rgb(49, 72, 89);
+		}
+.forOurTeam{
+	border: 1px hidden;
+	width: 100%;
+	/*height:900px;*/
+}
+		.ourTeam{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+		}
+			.ourTeam h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.ourTeam h1:nth-child(2){
+				font-size: 45px;
+				position: absolute;
+				top: 70px;
+			}
+		.bussinesMans{
+			border: 1px hidden;
+			width: 100%;
+			height: 500px;
+			display: flex;
+			justify-content: space-evenly;
+		}
+			.mens{
+				border: 1px hidden;
+				width: 400px;
+				height: 500px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: 0.5;
+			}
+				.mens:hover{
+					opacity: 1;
+				}
+				.bussinesMans img{
+					width: 250px;
+				}
+		.foricon{
+			border: 1px hidden;
+			width: 100%;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+		}
+			.fb{
+				font-size: 40px;
+				color: blue;
+			}
+			.tw{
+				font-size: 40px;
+				color: blue;
+			}
+			.google{
+				font-size: 40px;
+				color: red;
+			}
+			.inst{
+				font-size: 40px;
+				color: rgba(189,3,111,1.0);
+			}
+			.snap{
+				font-size: 40px;
+				color: yellow;
+			}
+.forSubscribe{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	background-color:rgb(66, 93, 120);
+}
+		.vec{
+			border: 1px hidden;
+			width: 40%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+		}
+		.yot{
+			border: 1px hidden;
+			width: 60%;
+			height: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			/*background-color:rgb(63, 97, 119);*/
+		}	
+				.yot input{
+					width: 500px;
+					height: 30px;
+					border-radius:30px ;
+					color: black;
+				}
+				.yot button{
+					border: none;
+						width: 150px;
+						height: 40px;
+						border-radius:30px;
+						position: absolute;
+						right: 0;
+						background-color: rgb(31, 38, 56);
+				}
+.ut{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 800px;*/
+	background-color: rgba(240, 240, 240, 1.0);
+}	
+		.inny{
+			border: 1px hidden;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.inny h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.inny h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 70px;
+
+			}
+	.tas{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+			.plans{
+				border: 1px hidden;
+				border-radius: 20px;
+				width: 300px;
+				height: 500px;
+				background-color: white;
+			}
+				.pric{
+					border: 1px hidden;
+					width: 100%;
+					height: 100px;
+					display: flex;
+					justify-content: center;
+					font-size: 40px;
+					align-items: center;
+				}
+				.tasnmek{
+					border: 1px hidden;
+					width: 100%;
+					height: 70px;
+					background-color:rgb(63, 97, 119);
+					display: flex;
+					justify-content: center;
+					color: white;
+				}
+				.tasnerku{
+					border: 1px hidden;
+					width: 100%;
+					height: 323px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
+					align-items: center;
+				}
+				.buynow{
+					border: hidden;
+					width: 150px;
+					height: 30px;
+					border-radius:30px;
+					background-color: rgb(63, 97, 119);
+					font-size: 100%;
+					color: white;
+				}
+					.buynow:hover{
+						background-color: rgb(34, 99, 124);
+					}
+	.tasnereq{
+		border: 1px hidden;
+		width: 100%;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 0 100px;
+		box-sizing: border-box;
+	}
+		.tasnereq h1:nth-child(1){
+			font-size: 50px;
+			opacity: 0.2;
+		}
+		.tasnereq h1:nth-child(2){
+			position: absolute;
+			top: 70px;
+			font-size: 40px;
+		}
+.tasnchors{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+		.textarea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background-color:rgb(63, 97, 119);
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			padding: 0 30px;
+			box-sizing: border-box;
+		}
+		.picturearea{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(womantwo.png);
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+			background-color: rgb(63, 97, 119);
+		}
+.tasnhing{
+	border: 1px hidden;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(64, 69, 134);
+}
+	.icon{
+		border: 1px hidden;
+		width: 200px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		align-items: center;
+		color: white;
+	}
+		.logoner{
+			font-size: 50px;
+		}
+.fornews{
+	border: 1px hidden;
+	width: 100%;
+	/*height: 1000px;*/
+}
+		.forTextNews{
+			border: 1px hidden;
+			width: 100%;
+			height: 250px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 100px;
+			box-sizing: border-box;
+		}
+			.forTextNews h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.forTextNews h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 40px;
+			}
+	.forNewPhotos{
+		border: 1px hidden;
+		width: 100%;
+		height: 500px;
+		display: flex;
+		padding: 0 200px;
+		box-sizing: border-box;
+	}
+			.picOneAndTwo{
+				border: 1px hidden;
+				width: 50%;
+				height: 500px;
+			}
+					.picone{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(pictwo.jpeg);
+						/*background-size: 115% ;*/
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictwo{
+						color: white;
+						opacity: 0.6;
+						border: 1px hidden;
+						width: 100%;
+						height: 250px;
+						background: url(picone.jpeg);
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.pictree{
+						color: white;
+						opacity: 0.6;
+						border:1px hidden;
+						width: 38%;
+						height: 500px;
+						background: url(pictree.jpeg);
+						background-repeat: no-repeat;
+						display: flex;
+						justify-content: center;
+						align-items: flex-end;
+					}
+					.picone:hover{
+						opacity: 1;
+					}
+					.pictwo:hover{
+						opacity: 1;
+					}
+					.pictree:hover{
+						opacity: 1;
+					}
+			.forSubBtn{
+				border: 1px hidden;
+				width: 100%;
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+				.forSubBtn button {
+					width: 150px;
+					height: 30px;
+					border-radius: 30px;
+					background-color:  rgb(31, 38, 56);
+					border:none;
+				}
+.forEnvanto{
+	border: 1px hidden;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+}	
+	.envanto{
+		border: 1px hidden;
+		width: 200px;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: blue;
+	}
+
+.forLocation{
+	border: 1px hidden;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 0 100px;
+	box-sizing: border-box;
+}		
+		.location{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			background: url(erevan.png);
+		}
+		.locateText{
+			border: 1px hidden;
+			width: 50%;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			position: relative;
+			background-color:rgb(21, 24, 36) ;
+			color: white;
+
+		}
+			.locateText h1:nth-child(1){
+				font-size: 50px;
+				opacity: 0.2;
+			}
+			.locateText h1:nth-child(2){
+				font-size: 40px;
+				position: absolute;
+				top: 50px;
+			}
+				.inputmek{
+					width: 250px;
+					height: 20px;
+					border-radius:30px;
+					background-color: rgb(21, 24, 36);
+				}
+				.inputerku{
+					width: 250px;
+					height: 100px;
+					border-radius: 20px;
+					background-color: rgb(21, 24, 36);
+				}
+				.locateText button{
+					width: 140px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: rgb(21, 24, 66);
+				}
+}
